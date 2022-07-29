@@ -19,3 +19,95 @@
     margin-bottom: 0%;
     margin-top: 6em;
 }
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-logo-image {
+    width: 12%;
+    margin-left: 3em;
+}
+
+.nav-link-container {
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2.5em;
+}
+
+.nav-link-a {
+    color: black;
+    text-decoration: none;
+    margin: 1.7em 0.5em;
+}
+
+.about-me-container {
+    display: flex;
+    margin: 2em auto;
+    width: 80%;
+}
+
+.about-me-image {
+    width: 100%;
+}
+
+.about-me-bio {
+    width: 60%;
+}
+
+.bio-social-link {
+    display: flex;
+}
+
+.bio-social-link a {
+    color: black;
+    text-decoration: none;
+}
+
+.bio-social-link-img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+}
+
+.gear-list-container {
+    width: 70%;
+    margin: auto;
+    display: none;
+}
+
+.gear-list-container h1 {
+    text-align: center;
+}
+
+.gear-list-item {
+    display: flex;
+}
+
+.gear-list-item-desc {
+    width: 45%;
+}
+
+.gear-list-item-img {
+    width: 45%;
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: 4em;
+}
+
+.copyright-tag {
+    margin-bottom: 0em;
+}
+
+.copyright-rights {
+    margin-top: 0em;
+    margin-left: 2px;
+}
+
+body {
+    font-family: 'poppinsReg', 'Helvetica', 'sans-serif';
+    color: black;
+}
